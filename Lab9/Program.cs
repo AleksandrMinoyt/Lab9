@@ -24,10 +24,10 @@ namespace Lab9
 
                 switch (kodOper)
                 {
-                    case 1: result = a + b; break;
-                    case 2: result = a - b; break;
-                    case 3: result = a * b; break;
-                    case 4: result = a / b; break;
+                    case 1: Console.WriteLine("Выбрано сложение "); result = a + b; break;
+                    case 2: Console.WriteLine("Выбрано вычитание"); result = a - b; break;
+                    case 3: Console.WriteLine("Выбрано произведение"); result = a * b; break;
+                    case 4: Console.WriteLine("Выбрано частное"); result = a / b; break;
 
                     default: throw new Exception("Не верно выбран код операции");
                 }
